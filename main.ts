@@ -10,8 +10,7 @@ input.onButtonPressed(Button.B, function () {
     timerWaarde = timerWaarde + 10
 })
 input.onGesture(Gesture.Shake, function () {
-    timerWaarde = 0
-    startTimer = false
+	
 })
 let startTimer = false
 let timerWaarde = 0
